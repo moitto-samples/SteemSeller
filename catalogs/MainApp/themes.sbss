@@ -1,0 +1,47 @@
+-- font --
+$SANSSERIF_LIGHT = "KoPubDotumLight"
+$SANSSERIF_MEDIUM = "KoPubDotumMedium"
+$SANSSERIF_BOLD = "KoPubDotumBold"
+$SERIF_LIGHT = "KoPubBatangLight"
+$SERIF_MEDIUM = "KoPubBatangMedium"
+$SERIF_BOLD = "KoPubBatangBold"
+$EMOJI = "KoPubDotumMedium"
+
+-- background color --
+
+-- 내비바색, 툴바색
+$THEME_COLOR_00 = #FCFCFC
+-- 라인색
+$THEME_COLOR_01 = #EBEBEB
+-- 바탕색
+$THEME_COLOR_02 = #FFFFFF
+-- 메인색
+$THEME_COLOR_03 = #C7EA46
+-- 빨간책
+$THEME_COLOR_04 = #FF0000
+-- 회색
+$THEME_COLOR_05 = #696969
+-- 흰색
+$WHITE_COLOR = #FFFFFF
+$WHITE_COLOR_DIM = #FFFFFF66
+$WHITE_COLOR_DEEP_DIM = #FFFFFF99
+-- 검정색
+$BLACK_COLOR = #000000
+$BLACK_COLOR_LIGHT_DIM = #00000033
+$BLACK_COLOR_DIM = #00000066
+$BLACK_COLOR_DEEP_DIM = #000000BB
+-- 선택색
+$THEME_HIGHLIGHT_COLOR = #0000001A
+
+-- text color --
+
+-- 짙은 색
+$THEME_COLOR_100 = #383838
+-- 옅은 색
+$THEME_COLOR_101 = #6C6C6C
+-- 흰색
+$THEME_COLOR_102 = #FFFFFF
+-- 메인색
+$THEME_COLOR_103 = #C7EA46
+-- 서브색
+$THEME_COLOR_104 = #4CBB17

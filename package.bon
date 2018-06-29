@@ -1,0 +1,7 @@
+{
+    "id": "io.moitto.samples.SteemSeller",
+    "language": "ko",
+    "version": "1.0",
+    "title": "Seller on Steem",
+    "description": "Sample app for a seller on Steem"
+}
