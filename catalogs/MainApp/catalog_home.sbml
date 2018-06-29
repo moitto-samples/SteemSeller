@@ -1,5 +1,4 @@
 =object image: style=img_bg
-=object blank: style=blank_dim
 
 =begin catalog
 
@@ -10,6 +9,8 @@
 =object label: text="${subview.username}", style=label_username
 
 =end profile
+
+=object image: style=img_thumb
 
 =begin start
 =object button: label="결제 QR코드 만들기", script=show_popup, style=btn_submit
