@@ -4,11 +4,20 @@
     "version":"1.0",
     "uses-database":"yes",
     "database-version":"2.0",
+    "showcases": {
+        "auxiliary": [
+            {
+                "id":"S_SELLER",
+                "username":"moitto-demo"
+            }
+        ]
+    },
     "subviews":{
     	"V_HOME":{
     		"catalog":"MainApp",
     		"subcatalog":"home",
-    		"type":"store"
+    		"type":"store",
+            "auxiliary": "S_SELLER"
     	}
 	},
 	"subcatalogs":{

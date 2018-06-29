@@ -1,0 +1,35 @@
+=begin catalog: script-when-loaded=on_loaded
+
+=object button: action=popup-close, style=btn_close
+=object label: text="상품 가격", style=label_title
+
+=begin transaction
+
+=object section: script-when-resume=on_choose_currency, section=amount, style=section_amount
+=begin amount: id=amount
+=begin heading
+=end heading
+
+=object section: section=amount.box, style=section_amount.box
+=begin box: id=amount.box, form=amount.box
+=begin content
+=object label: id=label.amount.type, text="${amount-type}", style=label_amount.type
+=object textfield: id=amount, text="${amount}", \
+                script-when-editing@change=on_change_amount, \
+                valid-format="([0-9]+\\.?)?([0-9]*)?", prevents-invalid-text=yes, \
+                keyboard-type=decimal, \
+                invalid-when-empty=yes, message-when-empty="상품 가격을 입력하세요.", \
+                style=textfield_amount
+=end content
+=end box
+
+
+=object label: id=label.amount.coin, style=label_amount.coin
+=object button: id=amount.type, label="단위 ${amount-type} ▶︎", script=toggle_currency, style=btn_amount.currency
+=end amount
+
+
+=object button: script=show_qr, form=amount.box, label="QR코드 생성하기", style=btn_submit
+=end transaction
+
+=end catalog

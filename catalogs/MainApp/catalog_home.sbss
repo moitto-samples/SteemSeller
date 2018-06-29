@@ -1,4 +1,17 @@
 import themes.sbss
+#img_bg: filename=img_bg.jpg, width=1pw, height=1ph, scale-mdoe=fill, position=absolute
+#blank_dim: width=1pw, height=1ph, position=absolute, color=$BLACK_COLOR_LIGHT_DIM
 
-/catalog/welcome: display=block, position=abs, gravity=center, \
-			text-align=center, font-size=1.2
+#label_username: font-family=$SANSSERIF_BOLD, text-color=$THEME_COLOR_02, text-align=center, font-size=2
+
+/catalog: page-background-color=$BLACK_COLOR, margin="(0.1pw+1sbh) 0.1pw 0.1pw 0.1pw"
+
+/catalog/profile/message: 
+
+#img_profile: width=120dp, height=120dp, scale-mode=fill, default-color=$THEME_COLOR_01, \
+            content-border-radius=60dp, content-border-width=2dp, content-border-color=$BLACK_COLOR_LIGHT_DIM, margin="0 0 20dp 0"
+
+#btn_submit: width=0.8pw, height=50dp, position=absolute, gravity=bottom, y=-(1eb+0.1pw), \
+        label-font-family=$SANSSERIF_MEDIUM, label-color=$THEME_COLOR_100, label-font-size=1.2, \
+        content-background-color=$THEME_COLOR_03
+

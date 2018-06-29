@@ -1,0 +1,20 @@
+=begin popup
+
+=begin navibar
+=object label: text="상품 QR코드", style=label_title
+=end navibar
+
+=object image: type=qrcode, text="https://v2.steemconnect.com/sign/transfer?to=${username}&amount=${amount}%20SBD", \
+            style=img_qrcode
+
+=begin desc
+=object label: text="셀러", style=label_common
+=object label: text="${username}", style=label_unsername
+=object label: text="상품 가격", style=label_common
+=object label: text="${currency} KRW", style=label_currency
+=object label: text="${amount} SBD", style=label_amount
+=end desc
+
+=object button: action=popup-close, label="닫기", style=btn_close
+
+=end popup
