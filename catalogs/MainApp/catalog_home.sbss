@@ -1,7 +1,7 @@
 import themes.sbss
 #img_bg: filename=img_bg.jpg, width=1pw, height=1ph, scale-mdoe=fill, position=absolute, visual-effect=blur-dark
 
-#label_username: font-family=$SANSSERIF_BOLD, text-color=$THEME_COLOR_02, text-align=center, font-size=2, margin="0 0 40dp 0"
+#label_username: font-family=$SANSSERIF_BOLD, text-color=$THEME_COLOR_100, text-align=center, font-size=2, margin="0 0 40dp 0"
 #img_thumb: filename=img_bg.jpg, width=0.45pw, height=0.45pw, scale-mode=fill
 
 /catalog: page-background-color=$THEME_COLOR_00, margin="(0.1pw+1sbh) 0.1pw 0.1pw 0.1pw"
