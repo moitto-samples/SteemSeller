@@ -8,7 +8,7 @@
         "auxiliary": [
             {
                 "id":"S_SELLER",
-                "username":"moitto-demo"
+                "username":"${USERNAME}"
             }
         ]
     },
